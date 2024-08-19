@@ -28,6 +28,8 @@ import { ModalComponent } from './shared/modal/modal.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { BotaoControleComponent } from './shared/botao-controle/botao-controle.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { DropdownUnidadeFederativaComponent } from './shared/form-busca/dropdown-unidade-federativa/dropdown-unidade-federativa.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     CardDepoimentoComponent,
     FormBuscaComponent,
     ModalComponent,
-    BotaoControleComponent
+    BotaoControleComponent,
+    DropdownUnidadeFederativaComponent
   ],
   imports: [
     BrowserModule,
@@ -60,7 +63,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatNativeDateModule,
     MatDialogModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
