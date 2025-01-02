@@ -64,7 +64,8 @@ import { DropdownUnidadeFederativaComponent } from './shared/form-busca/dropdown
     MatDialogModule,
     HttpClientModule,
     ReactiveFormsModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
