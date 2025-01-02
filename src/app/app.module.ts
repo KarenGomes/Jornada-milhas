@@ -30,6 +30,7 @@ import { BotaoControleComponent } from './shared/botao-controle/botao-controle.c
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import { DropdownUnidadeFederativaComponent } from './shared/form-busca/dropdown-unidade-federativa/dropdown-unidade-federativa.component';
+import { SeletorPassageiroComponent } from './shared/seletor-passageiro/seletor-passageiro.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { DropdownUnidadeFederativaComponent } from './shared/form-busca/dropdown
     FormBuscaComponent,
     ModalComponent,
     BotaoControleComponent,
-    DropdownUnidadeFederativaComponent
+    DropdownUnidadeFederativaComponent,
+    SeletorPassageiroComponent
   ],
   imports: [
     BrowserModule,
